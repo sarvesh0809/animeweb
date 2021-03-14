@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta http-equiv="X-UA-Compatible" content="ie-edge" />
+    <meta name="description" content="The Anime Site" />
+    <meta name="author" content="Priyanka Aurade" />
+    <title>Responsive Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+        rel="stylesheet" />
+</head>
+
+<body class="body">
+
+    <!-- Navigation -->
+
+    <section class="container-1">
+        <nav class="navbar">
+            <input type="checkbox" id="check" />
+            <label for="check" class="check-btn">
+                <div class="check-item check-top"></div>
+                <div class="check-item check-meat"></div>
+                <div class="check-item check-bottom"></div>
+            </label>
+            <label class="navbar__brand"><a class="navbar__brand-link" href="#">7ANIME</a></label>
+            <ul class="nav-wrapper">
+                <li class="nav-wrapper__item"><a class="nav-wrapper__link" href="#home-section">Home</a></li>
+                <li class="nav-wrapper__item"><a class="nav-wrapper__link" href="#about-section">About Us</a></li>
+                <li class="nav-wrapper__item"><a class="nav-wrapper__link" href="#menu-section">Anime-List</a></li>
+                <li class="nav-wrapper__item"><a class="nav-wrapper__link" href="#contact-section">Contact</a></li>
+            </ul>
+        </nav>
+
+        <!-- Masthead -->
+
+        <div class="masthead" id="home-section">    
+            <div class="masthead-text">
+                <h1 class="masthead__title">The Best <span class="masthead__title-color">Anime</span> <br>Site</h1>
+                <p class="masthead__paragraph">You Can watch And Even Download Your Favourite Anime Here, We Provide You The Fastest Server's For The Lag Free Experience.</p>
+                <label class="masthead__btn"><a class="masthead__link" href="#">Watch Now</a></label>
+            </div>
+            <div class="masthead-img-1a">
+                <img class="container__img-1a"
+                    src="https://img.playbuzz.com/image/upload/ar_1.5,c_pad,f_jpg,b_auto/q_auto:good,f_auto,fl_lossy,w_480,c_limit,dpr_2.5/cdn/1fe80e11-12e8-492e-a18a-5c9df718cf71/c80a6bed-0782-4f84-98aa-fd6f7025b6a6_560_420.jpg">
+            </div>
+        </div>
+        <div class="masthead-img-1b">
+            <img class="container__img-1b"
+                src="https://qph.fs.quoracdn.net/main-qimg-0b2ce8f58490062dfef73a956aa135ab" />
+        </div>
+    </section>
+
+    <!-- About -->
+
+    <section class="about" id="about-section">
+        <div class="content">
+            <h2 class="content__title">About Us</h2>
+            <hr class="hr" />
+        </div>
+        <div class="container-2">
+            <div class="col-left-1">
+                <h3 class="about__title">Our Moto...</h3>
+                <p class="about__paragraph">Welcome to the world of anime! Our goal is to bring anime fans and folks who are very new to it all together to share their opinions about anime. We hope to inspire people to help spread their love of anime to others. I hope that you like our website and share your advice to our website more and more perfect.</p>
+                <p><b>7ANIME Team</b></p>
+            </div>
+            <div class="col-right-1">
+                
+                <iframe class="container__img-2" width="430" height="430" src="https://www.youtube.com/embed/6NKosrRaNMU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+               
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu -->
+
+    <section class="menu" id="menu-section">
+        <div class="content">
+            <h2 class="content__title">LIST</h2>
+            <hr class="hr" />
+            <h3 class="about__title">POPULAR ONGOING UPDATE</h3>
+        </div>
+        <div class="container-2">
+            <div class="col-menu-1">
+                <img class="container__img-3" src="https://gogocdn.net/images/anime/One-piece.jpg" />
+                <img class="container__img-3" src="https://gogocdn.net/cover/naruto-shippuuden-dub.png" />
+                <img class="container__img-3" src="https://gogocdn.net/cover/black-clover-tv.png" />
+            </div>
+        </div>
+        <div class="container-2">
+            <div class="col-menu-1">
+                <img class="container__img-3" src="https://gogocdn.net/cover/jujutsu-kaisen-tv.png" />
+                <img class="container__img-3" src="https://gogocdn.net/cover/boruto-naruto-next-generations.png" />
+                <img class="container__img-3" src="https://gogocdn.net/cover/haikyuu-to-the-top-2nd-season.png" />
+            </div>
+        </div>
+        <label class="masthead__btn masthead__btn--menu"><a class="masthead__link masthead__link--menu" href="#">Watch
+                Now</a></label>
+    </section>
+
+    <!-- Contact -->
+
+    <section class="newsletter" id="contact-section">
+        <div class="content content-newsletter">
+            <h2 class="content__title">Contact</h2>
+            <hr class="hr" />
+        </div>
+        <div class="subscribe">
+            <h3 class="subscribe__h3 about__title about__title--subscribe">
+                Sign Up <br>
+            </h3>
+            <form class="form">
+                <fieldset class="content-input">
+                    <input class="form__input" type="text" name="name" placeholder="Name"/>
+                    <input class="form__input" type="text" name="email" placeholder="Email Address" />
+                </fieldset>
+                <label class="masthead__btn masthead__btn--menu"><a class="masthead__link masthead__link--menu"
+                        href="#"><small>&nbsp;</small> Register<small>&nbsp;</small></a></label>
+            </form>
+            <img class="newsletter__img" src="https://7anime.io/wp-content/uploads/2019/12/profile4-min.jpg" />
+        </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer class="footer">
+        <div class="icons-social">
+            <ul class="list-social">
+                <li class="icons-social__item"><a class="icons-social__link" href="#"><i
+                            class="icons-social__i fab fa-codepen"></i></a></li>
+                <li class="icons-social__item"><a class="icons-social__link" href="#"><i
+                            class="icons-social__i fab fa-instagram"></i></a></li>
+                <li class="icons-social__item"><a class="icons-social__link" href="#"><i
+                            class="icons-social__i fab fa-facebook"></i></a></li>
+                <li class="icons-social__item"><a class="icons-social__link" href="#"><i
+                            class="icons-social__i fab fa-twitter"></i></a></li>
+                <li class="icons-social__item"><a class="icons-social__link" href="#"><i
+                            class="icons-social__i fab fa-linkedin"></i></a></li>
+            </ul>
+        </div>
+        <div class="container-footer">
+            <p>Develop by <a class="container-footer__link" href="#" target="_blank">Priyanka
+                    Aurade</a> | Copyright &copy; 2021</p>
+        </div>
+    </footer>
+</body>
+
+</html>
